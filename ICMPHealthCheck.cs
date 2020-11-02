@@ -4,8 +4,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace HealthCheck : IHealthCheck {
-    public class ICMPHealthCheck {
+namespace HealthCheck
+{
+    public class ICMPHealthCheck : IHealthCheck {
         private string Host = "www.does-not-exist.com";
         private int Timeout = 300;
         public async Task<HealthCheckResult> CheckHealthAsync (
@@ -27,6 +28,5 @@ namespace HealthCheck : IHealthCheck {
                 return HealthCheckResult.Unhealthy ();
             }
         }
-
     }
 }

@@ -11,3 +11,4 @@ Possíveis resultados
  - Healthy (Saudável): Podemos considerar o hospedeiro Saudável sempre que o PING tiver êxito sem erros e tempos limite.
  - Degraded (Degradado): Podemos considerar o hospedeiro Degradado sempre que o PING conseguiu, mas a viagem de ida e volta é muito longa.
  - Unhealthy (Insalubre): Podemos considerar o host insalubre sempre que o PING falhar, ou seja, o tempo de verificação expira antes de qualquer resposta.
+
